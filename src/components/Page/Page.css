@@ -1,0 +1,9 @@
+@import '@cssVariables';
+
+.page {
+  margin: var(--space90) auto var(--space40);
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: var(--max-width-xxl);
+}

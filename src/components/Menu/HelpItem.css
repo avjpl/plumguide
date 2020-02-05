@@ -1,0 +1,9 @@
+@import '@cssVariables';
+
+.help__btn {
+  border: none;
+  background: var(--orange);
+  padding: var(--space10) var(--space70);
+  border-radius: var(--space20);
+  white-space: nowrap;
+}

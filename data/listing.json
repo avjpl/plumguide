@@ -1,0 +1,60 @@
+{
+  "name": "Kensington Church Street VII",
+  "street": "notting hill",
+  "town": "london",
+  "highlights": [
+    {
+      "title": "A gorgeous and shaded private roof terrace",
+      "image": {
+        "desktop": "https://fakeimg.pl/720x405",
+        "tablet": "https://fakeimg.pl/720x405",
+        "mobile": "https://fakeimg.pl/720x405"
+      }
+    },
+    {
+      "title": "Ample dining space to entertain",
+      "image": {
+        "desktop": "https://fakeimg.pl/720x405",
+        "tablet": "https://fakeimg.pl/720x405",
+        "mobile": "https://fakeimg.pl/720x405"
+      }
+    },
+    {
+      "title": "Cloud-like pillows and soft egyptian cotton beddings",
+      "image": {
+        "desktop": "https://fakeimg.pl/720x405",
+        "tablet": "https://fakeimg.pl/720x405",
+        "mobile": "https://fakeimg.pl/720x405"
+      }
+    }
+  ],
+  "listingDescription": [
+    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam non urna tincidunt, congue enim vitae, gravida felis. Mauris a leo sapien. Cras eleifend ante et velit porttitor scelerisque. Praesent laoreet mi a felis consequat, sed viverra urna mollis. Donec a lobortis velit, in ullamcorper nibh. Nulla a vestibulum eros, sit amet efficitur sem. Aliquam id erat id sem maximus convallis sit amet nec purus. Curabitur aliquam mauris sagittis, pulvinar dolor non, viverra odio. Aliquam a lacinia nisi. Donec hendrerit vestibulum facilisis. Aliquam elementum quis purus malesuada sodales. Fusce rutrum facilisis vestibulum. Donec vehicula porta placerat. Donec a interdum ante. Nam nec tristique orci, et condimentum augue. Aenean convallis gravida tellus.",
+    "Vestibulum fermentum enim ut ligula gravida dignissim. Suspendisse placerat ornare commodo. Integer gravida erat vel venenatis dapibus. Mauris gravida pulvinar ex et interdum. Nullam in congue metus, nec volutpat ligula. Nulla quis ultricies ex, eget finibus sapien. Cras suscipit lacinia tincidunt. Ut lobortis mattis quam, sed scelerisque tortor convallis nec. Praesent posuere urna vitae odio rhoncus commodo. Mauris turpis diam, convallis eu est rhoncus, finibus consequat turpis. Nulla venenatis dapibus pellentesque. Cras imperdiet id magna eget fermentum. Aliquam quam elit, faucibus a consequat in, pretium ac elit. Nunc volutpat dolor nec sagittis rhoncus. Praesent euismod sed arcu fringilla porttitor. Morbi non sapien et elit mattis dictum quis ut elit."
+  ],
+  "listingSpecs": {
+    "vettedBy": [
+      "Home vetted by Ash Atighetchi",
+      "Plum Guide Home Critic"
+    ],
+    "guests": 6,
+    "size": "1,478",
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "closestStation": "6 min walk to Notting Hill station"
+  },
+  "galleryImages": [
+    {
+      "desktop": "https://fakeimg.pl/1440x810",
+      "tablet": "https://fakeimg.pl/720x405",
+      "mobile": "https://fakeimg.pl/360x202"
+    },
+    {
+      "desktop": "https://fakeimg.pl/1440x810",
+      "tablet": "https://fakeimg.pl/720x405",
+      "mobile": "https://fakeimg.pl/360x202"
+    }
+  ],
+  "photoCount": 13,
+  "stayTotal": "20,960"
+}

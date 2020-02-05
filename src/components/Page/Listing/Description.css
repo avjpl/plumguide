@@ -1,0 +1,92 @@
+@import '@cssVariables';
+
+.decription {
+  width: 90%;
+  padding: var(--space20) var(--space30) var(--space0);
+  margin: var(--space50) auto var(--space0);
+
+  @media (--media-l) {
+    padding: var(--space50) var(--space50) var(--space0);
+  }
+}
+
+.decription_wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+
+  @media (--media-l) {
+    flex-direction: row;
+  }
+}
+
+.decription_heading {
+  margin-bottom: var(--space12);
+  font-size: var(--font-size-l);
+}
+
+.decription__body {
+  display: flex;
+  flex-direction: column;
+  flex: var(--space0) var(--space0) auto;
+
+  font-size: var(--font-size-s);
+  line-height: var(--font-size-m);
+  letter-spacing: var(--letter-spacing);
+
+  @media (--media-l) {
+    width: 50%;
+  }
+}
+
+.decription__para {
+  margin-bottom: var(--space20);
+}
+
+.list__spec {
+  flex: var(--space0) var(--space0) auto;
+
+
+  @media (--media-l) {
+    flex-basis: 40%;
+    max-width: 40%;
+  }
+}
+
+.list__spec__item {
+  font-size: var(--font-size-s);
+  border-bottom: var(--space1) solid var(--light-grey);
+  padding: var(--space10) var(--space0);
+  letter-spacing: var(--letter-spacing);
+}
+
+.list__spec__group {
+  display: flex;
+}
+
+.list__spec__group_item {
+  padding-left: var(--space22);
+}
+
+.list__spec__item:last-child {
+  border-bottom: none;
+}
+
+.list__spec__para {
+  margin-bottom: var(--space4);
+  letter-spacing: 0.04rem;
+}
+
+.list__spec__btn {
+  padding: var(--space8) var(--space0);
+  margin-bottom: var(--space10);
+  border: var(--space1) solid var(--dark-grey);
+  width: 100%;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: var(--letter-spacing);
+}
+
+.noPaddingLeft {
+  padding-left: var(--space0);
+}

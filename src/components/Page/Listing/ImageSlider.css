@@ -1,0 +1,113 @@
+@import '@cssVariables';
+
+.carousel {
+  position: relative;
+  margin: var(--space0);
+
+  @media (--media-m) {
+    margin-top: var(--space2);
+  }
+
+  @media (--media-l) {
+    margin: var(--space2) var(--space50) var(--space0);
+  }
+}
+
+.info__panel {
+  display: flex;
+  width: 90%;
+  position: absolute;
+  bottom: var(--spacen33);
+  left: 50%;
+  transform: translateX(-50%);
+  border: var(--space1) solid var(--light-grey);
+  background: var(--white);
+  padding: var(--space16) var(--space6);
+
+  @media (--media-m) {
+    justify-content: center;
+  }
+
+  @media (--media-l) {
+    bottom: var(--spacen40);
+    padding: var(--space16);
+  }
+}
+
+.info__panel__amount {
+  font-size: var(--font-size-l);
+  margin-right: var(--space4);
+}
+
+.info__panel__symbol {
+  top: var(--spacen4);
+}
+
+.info__panel__cost {
+  display: flex;
+  align-items: center;
+}
+
+.info__panel--left {
+  margin-right: auto;
+  display: none;
+
+  @media (--media-l) {
+    display: inline;
+  }
+}
+
+.info__panel--right {
+  display: flex;
+  align-items: center;
+  width: 500px;
+  justify-content: space-between;
+}
+
+.reserve__btn {
+  border: none;
+  background: var(--orange);
+  padding: var(--space10) var(--space50);
+  border-radius: var(--space20);
+
+  @media (--media-xl) {
+    padding: var(--space10) var(--space90);
+  }
+}
+
+.status {
+  font-size: var(--font-size-s);
+  color: var(--white);
+  background: rgba(0,0,0,0.5);
+  padding: var(--space4) var(--space6);
+  border-radius: var(--space20);
+  margin: var(--space6) var(--space6) var(--space0) var(--space0);
+}
+
+:global .carousel.carousel-slider .control-arrow:hover {
+  background: none;
+}
+
+:global .carousel.carousel-slider  {
+  overflow: unset;
+}
+
+:global .carousel .control-next.control-arrow:before {
+  border-left-color: var(--black);
+}
+
+:global .carousel .control-prev.control-arrow:before {
+  border-right-color: var(--black);
+}
+
+:global .carousel .control-next.control-arrow {
+  @media (--media-l) {
+    right: var(--spacen20);
+  }
+}
+
+:global .carousel .control-prev.control-arrow {
+  @media (--media-l) {
+    left: var(--spacen20);
+  }
+}

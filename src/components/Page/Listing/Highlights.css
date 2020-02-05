@@ -1,0 +1,40 @@
+@import '@cssVariables';
+
+.highlights {
+  width: 90%;
+  margin: var(--space50) auto var(--space0);
+}
+
+.highlights__heading {
+  margin-bottom: var(--space12);
+  font-size: var(--font-size-l);
+}
+
+.highlights__images {
+  display: flex;
+  flex-direction: column;
+
+  @media (--media-l) {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+.highlights__image__container {
+  margin-right: var(--space20);
+}
+
+.highlights__image {
+  display: block;
+  width: 100%;
+  margin-bottom: var(--space12);
+}
+
+.highlights__description {
+  margin-top: var(--space4);
+  letter-spacing: var(--letter-spacing);
+}
+
+.highlights__image:last-child {
+  margin-right: var(--space0);
+}

@@ -1,0 +1,28 @@
+@import '@cssVariables';
+
+.title__group {
+  align-self: center;
+  margin-bottom: var(--spacen6);
+  text-align: center;
+  z-index: 10;
+}
+
+.title__street {
+  font-size: var(--font-size-xs);
+  margin-bottom: var(--space4);
+}
+
+.title__name {
+  font-family: 'Rozha One', serif;
+  font-size: var(--font-size-xl);
+  line-height: var(--space33);
+  margin-bottom: var(--spacen2);
+  width: var(--max-width-xxs);
+
+  @media (--media-m) {
+    width: auto;
+    font-size: var(--font-size-xxl);
+    display: inline-block;
+    margin-bottom: var(--space1);
+  }
+}

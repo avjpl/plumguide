@@ -1,0 +1,98 @@
+@import './reset.css';
+@import './variables.css';
+@import './fonts.css';
+
+:global body {
+  font-family: 'Nanum Gothic', sans-serif;
+  font-size: var(--font-size-base);
+}
+
+:global .menu {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  z-index: 100;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: var(--space60);
+  border-bottom: var(--space1) solid var(--black);
+  background: var(--white);
+  overflow: hidden;
+}
+
+:global .menu__item {
+  display: inline-block;
+  padding: var(--space24) var(--space32);
+}
+
+:global .menu__item:not(.hamberger__icon, .logo) {
+  display: none;
+
+  @media (--media-l) {
+    display: inline-block;
+  }
+}
+
+:global .menu__item--right_border {
+  border-right: var(--space1) solid var(--black);
+}
+
+:global .menu__item--left_border {
+  border-left: var(--space1) solid var(--black);
+}
+
+:global .menu__item--center {
+  margin: 0 auto;
+}
+
+:global .logo {
+  margin: 0 auto;
+}
+
+:global .noPaddingLeft {
+  padding-left: 0;
+}
+
+:global .pgLogo--centered {
+  align-self: center;
+}
+
+:global .pgLogo {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--white);
+  background: var(--black);
+  width: var(--space36);
+  height: var(--space36);
+  min-width: var(--space36);
+  border-radius: var(--space36);
+  margin-right: var(--space10);
+  margin-bottom: var(--space4);
+}
+
+:global .partial__address {
+  font-size: var(--font-size-xs);
+  margin-bottom: var(--space4);
+  letter-spacing: var(--letter-spacing);
+}
+
+:global .location__name {
+  font-family: 'Rozha One', serif;
+  font-size: var(--font-size-xl);
+  line-height: var(--space32);
+  margin-bottom: var(--spacen2);
+  width: var(--max-width-xxs);
+  letter-spacing: var(--letter-spacing);
+
+  @media (--media-m) {
+    width: auto;
+    font-size: var(--font-size-xxl);
+    display: inline-block;
+  }
+}
+
+:global .location__name--medium {
+  font-size: var(--font-size-l);
+}
