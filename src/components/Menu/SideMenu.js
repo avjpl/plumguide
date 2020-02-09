@@ -16,8 +16,6 @@ const classes = {
 }
 
 const SideMenu = ({ setToggleMenu, toggleMenu }) => {
-  console.log({toggleMenu});
-
   return createPortal(
     <CSSTransition
       in={toggleMenu}
