@@ -11,8 +11,8 @@ const Description = ({ listingDescription, listingSpecs, photoCount }) => {
       <div className={styles.decription_wrapper}>
         <div className={styles.decription__body}>
           {
-            listingDescription.map((text) => {
-              return <p className={styles.decription__para}>{text}</p>
+            listingDescription.map((text, idx) => {
+              return <p key={idx} className={styles.decription__para}>{text}</p>
             })
           }
         </div>
@@ -22,8 +22,8 @@ const Description = ({ listingDescription, listingSpecs, photoCount }) => {
             <span className={'pgLogo'}>PG</span>
             <div>
               {
-                listingSpecs.vettedBy.map((text) => {
-                  return <p className={styles.list__spec__para}>{text}</p>
+                listingSpecs.vettedBy.map((text, idx) => {
+                  return <p key={idx} className={styles.list__spec__para}>{text}</p>
                 })
               }
             </div>

@@ -20,20 +20,20 @@ const ImageSlider = ({ galleryImages, name, street, town, stayTotal }) => {
         statusFormatter={formatter}
       >
         {
-          galleryImages.map(({ desktop, tablet, mobile }) => {
+          galleryImages.map(({ desktop, tablet, mobile }, idx) => {
             return (
-              <div>
+              <div key={idx}>
                 <picture>
                   <source
-                    srcset={desktop}
+                    srcSet={desktop}
                     media="(min-width: 1000px)"
                   />
                   <source
-                    srcset={tablet}
+                    srcSet={tablet}
                     media="(min-width: 768px)"
                   />
                   <source
-                    srcset={mobile}
+                    srcSet={mobile}
                     media="(min-width: 375px)"
                   />
                   <img src={tablet} alt="logo" />

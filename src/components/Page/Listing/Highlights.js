@@ -12,15 +12,15 @@ const Highlights = () => {
         <div className={styles.highlights__image__container}>
           <picture>
             <source
-              srcset="https://fakeimg.pl/600x400"
+              srcSet="https://fakeimg.pl/600x400"
               media="(min-width: 1000px)"
             />
             <source
-              srcset="https://fakeimg.pl/400x300"
+              srcSet="https://fakeimg.pl/400x300"
               media="(min-width: 768px)"
             />
             <source
-              srcset="https://fakeimg.pl/200x150"
+              srcSet="https://fakeimg.pl/200x150"
               media="(min-width: 375px)"
             />
             <img className={styles.highlights__image} src="https://fakeimg.pl/720x405" alt="logo" />
@@ -32,15 +32,15 @@ const Highlights = () => {
         <div className={styles.highlights__image__container}>
           <picture>
             <source
-              srcset="https://fakeimg.pl/600x400"
+              srcSet="https://fakeimg.pl/600x400"
               media="(min-width: 1000px)"
             />
             <source
-              srcset="https://fakeimg.pl/400x300"
+              srcSet="https://fakeimg.pl/400x300"
               media="(min-width: 768px)"
             />
             <source
-              srcset="https://fakeimg.pl/200x150"
+              srcSet="https://fakeimg.pl/200x150"
               media="(min-width: 375px)"
             />
             <img className={styles.highlights__image} src="https://fakeimg.pl/720x405" alt="logo" />
@@ -52,15 +52,15 @@ const Highlights = () => {
         <div className={styles.highlights__image__container}>
           <picture>
             <source
-              srcset="https://fakeimg.pl/600x400"
+              srcSet="https://fakeimg.pl/600x400"
               media="(min-width: 1000px)"
             />
             <source
-              srcset="https://fakeimg.pl/400x300"
+              srcSet="https://fakeimg.pl/400x300"
               media="(min-width: 768px)"
             />
             <source
-              srcset="https://fakeimg.pl/200x150"
+              srcSet="https://fakeimg.pl/200x150"
               media="(min-width: 375px)"
             />
             <img className={styles.highlights__image} src="https://fakeimg.pl/720x405" alt="logo" />

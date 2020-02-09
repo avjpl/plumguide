@@ -1,0 +1,28 @@
+.sideMenu {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  background: lightgray;
+  height: 100%;
+  width: 40vh;
+  z-index: 1000;
+  transition: transform .4s;
+  transform: translateX(-40vh);
+}
+
+.sideMenu-enter {
+  transform: translateX(-40vh);
+}
+
+.sideMenu-enter-active {
+  transform: translateX(0);
+}
+
+/* .sideMenu-exit {
+  transform: translateX(0);
+}
+
+.sideMenu-exit-active {
+  transform: translateX(-40vh);
+} */
